@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat | Phonex</title>
+  </head>
+  <body>
+    <!-- Coloque esta etiqueta donde usted quiera que el Plugin Live Helper sea desplegado -->
+<div id="lhc_status_container_page" ></div>
+
+<!-- Place this tag after the Live Helper Plugin tag. -->
+<script type="text/javascript">
+var LHCChatOptionsPage = {};
+LHCChatOptionsPage.opt = {};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = '//189.204.89.162/phchat/lhc_web/index.php/esp/chat/getstatusembed';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+  </body>
+</html>
