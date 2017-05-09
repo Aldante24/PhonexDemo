@@ -2,21 +2,7 @@
 float:right;
 width:410px;
 height:280px;
-background: url("images/chatnew.jpg");
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-display:block;
-right: -375px;
-padding:0;
-position:fixed;
-top: 400px;
-z-index:1002;
-}
-.esthelas {
-float:right;
-width:410px;
-height:280px;
-background: url("images/chat.jpg");
+background: url("images/call.png");
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 display:block;
@@ -25,4 +11,26 @@ padding:0;
 position:fixed;
 top: 100px;
 z-index:1002;
+}
+.esthelas {
+float:right;
+width:410px;
+height:280px;
+background: url("images/chat.png");
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+display:block;
+right: -375px;
+padding:0;
+position:fixed;
+top: 200px;
+z-index:1002;
+}
+
+div .containerr{
+  padding: 20px 0px 0px 30px;
+}
+
+div .containerrchat{
+  padding: 40px 0px 0px 60px;
 }

@@ -18,7 +18,20 @@
     j(".esthela").hover(function(){
     j(".esthela").stop(true, false).animate({right:"-130"},"medium");
     },function(){
-    j(".esthela").stop(true, false).animate({right:"-340"},"medium");
+    j(".esthela").stop(true, false).animate({right:"-375"},"medium");
+    },500);
+    return false;
+    });
+    //]]>
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+    var j = jQuery.noConflict();
+    j(function (){
+    j(".esthelas").hover(function(){
+    j(".esthelas").stop(true, false).animate({right:"-130"},"medium");
+    },function(){
+    j(".esthelas").stop(true, false).animate({right:"-374"},"medium");
     },500);
     return false;
     });
@@ -26,7 +39,7 @@
     </script>
 </head>
 
-<body>
+<body class="aldo">
     <div id="page">
         <div id="header">
             <h1><a href="#">Phonex</a></h1>
@@ -95,10 +108,17 @@
             </div><!-- content -->
             <div class="clearing">&nbsp;</div>
         </div><!-- main -->
-        <div class="esthela" style="right: -340px;">
+        <div class="esthela" style="right: -375px;">
           <div style="color: rgb(255, 255, 255); padding: 8px 5px 0pt 50px;">
               <div class="">
-                  <?php include ('prueba.html');?>
+                  <?php include ('tellamamos.html');?>
+              </div>
+          </div>
+        </div>
+        <div class="esthelas" style="right: -374px;">
+          <div style="color: rgb(255, 255, 255); padding: 8px 5px 0pt 50px;">
+              <div class="">
+                  <?php include ('boton.html');?>
               </div>
           </div>
         </div>
@@ -110,7 +130,7 @@
                 <p>Copyright &copy; 2011, designed by <a href="http://www.webtemplateocean.com/">WebTemplateOcean.com</a></p>
 				<p>Busque m&aacute;s plantillas web gratis <a href="http://www.mejoresplantillasgratis.es" target="_blank">en MPG.es</a>.</p>
             </div> -->
-            <script type="text/javascript">
+            <!-- <script type="text/javascript">
             var LHCChatOptions = {};
             LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
             (function() {
@@ -120,7 +140,7 @@
             po.src = '//189.204.89.162/phchat/lhc_web/index.php/esp/chat/getstatus/(click)/internal/(position)/middle_right/(ma)/br/(top)/150/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
             })();
-            </script>
+            </script> -->
             <div id="clearingfooter">&nbsp;</div>
         </div><!-- footer -->
     </div><!-- page -->

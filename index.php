@@ -31,7 +31,7 @@
     j(".esthelas").hover(function(){
     j(".esthelas").stop(true, false).animate({right:"-130"},"medium");
     },function(){
-    j(".esthelas").stop(true, false).animate({right:"-375"},"medium");
+    j(".esthelas").stop(true, false).animate({right:"-374"},"medium");
     },500);
     return false;
     });
@@ -39,7 +39,7 @@
     </script>
 </head>
 
-<body>
+<body class="aldo">
     <div id="page">
         <div id="header">
             <h1><a href="#">Phonex</a></h1>
@@ -108,7 +108,7 @@
               </div>
           </div>
         </div>
-        <div class="esthelas" style="right: -375px;">
+        <div class="esthelas" style="right: -374px;">
           <div style="color: rgb(255, 255, 255); padding: 8px 5px 0pt 50px;">
               <div class="">
                   <?php include ('boton.html');?>
